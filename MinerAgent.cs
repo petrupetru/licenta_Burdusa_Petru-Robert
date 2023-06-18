@@ -158,7 +158,8 @@ public class MinerAgent : Agent
     }
 
     private (List<float> hitsNeededObs, List<float> numOfCoinsObs) RayCastInfo(RayPerceptionSensorComponent3D rayComponent)
-    { 
+    {
+        /*Aceasta functie este inspirata din: https://forum.unity.com/threads/helper-function-to-get-the-rayperceptionsensorcomponent3d-hit-distance-to-gameobject.1240648/ (accesare aprilie 2023)*/
         List<float> rayObservationsHitsNeeded = new List<float>();
         List<float> rayObservationsNumOfCoins = new List<float>();
 
